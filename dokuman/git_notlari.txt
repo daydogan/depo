@@ -1,13 +1,13 @@
 
 *******************************************
 
-fetch işlemi
+fetch iÃ¾lemi
 
 git fetch (origin)
 
 ************************************************
 
-pull işlemi
+pull iÃ¾lemi
 
 git pull (origin)
 
@@ -19,7 +19,7 @@ git checkout -b yeni_branch
 
 **************************************************
 
-Dal birleştirme
+Dal birleÃ¾tirme
 
 git checkout master
 
@@ -63,21 +63,21 @@ git rm --cached depo -f
 
 ************************************
 
-Kendini Tanıtmak
+Kendini TanÃ½tmak
 
 git config --global user.name "doruk"
 git config --global user.email "dorukaydogan@gmail.com"
 
 ******************************************
 
-Yeni Depo Oluşturmak ve GitHub'a göndermek
+Yeni Depo OluÃ¾turmak ve GitHub'a gÃ¶ndermek
 
-GitHub'da depo oluşturulur
-Yeni klasör oluştur
-içine gir
-echo "metin yazılacak" >> yeni.txt
+GitHub'da depo oluÃ¾turulur
+Yeni klasÃ¶r oluÃ¾tur
+iÃ§ine gir
+echo "metin yazÃ½lacak" >> yeni.txt
 git init
-git add yeni.txt (Bütün dosyalar için . kullanılır)
+git add yeni.txt (BÃ¼tÃ¼n dosyalar iÃ§in . kullanÃ½lÃ½r)
 git commit -m "ilk dosya"
 git remote add origin https://github.com/daydogan/depo.git
 git push (-u origin master)
@@ -85,7 +85,7 @@ git push (-u origin master)
 
 **********************************************************************
 
-Github 'a göndermek
+Github 'a gÃ¶ndermek
 
 git add .
 
@@ -95,7 +95,7 @@ git push (-u origin master)
 
 ****************************************************************************************
 
-Klon Oluşturmak
+Klon OluÃ¾turmak
 
 git clone https://github.com/daydogan/depo.git
 cd depo
@@ -105,7 +105,7 @@ git push (-u origin master)
 
 *********************************************************************************************
 
-Durum İzleme
+Durum Ãzleme
 
 git status
 
@@ -116,3 +116,7 @@ git status
 git remote update
 
 ****************************************************************************************
+---------------------------------------------------------------------------------------
+
+git push --set-upstream origin master
+git push
